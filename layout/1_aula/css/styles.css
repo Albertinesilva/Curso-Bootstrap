@@ -3,6 +3,10 @@ h1 {
   color: red;
 }
 
+/* body {
+  background-color: #000;
+} */
+
 /* SM  >= 576px*/
 @media (min-width: 376px) {
   h1 {
@@ -33,4 +37,49 @@ h1 {
 
 .btn-primary {
   background-color: red;
+}
+
+.container {
+  background-color: #999;
+}
+
+.container-fluid {
+  background-color: #ccc;
+}
+
+/* Container Breakpoint */
+
+.container-sm {
+  margin-bottom: 30px;
+  border: 2px solid blue;
+}
+
+.container-md {
+  margin-bottom: 30px;
+  border: 2px solid crimson;
+}
+
+.container-lg {
+  margin-bottom: 30px;
+  border: 2px solid chocolate;
+}
+
+/* Grid Breakpoint */
+.container{
+  border: 5px dotted blue;
+  padding: 10px;
+  margin-bottom: 300px;
+}
+
+.row{
+  border: 5px solid purple;
+  height: 100px;
+  padding: 10px;
+  margin: 0;
+}
+
+.col{
+  border: 2px dashed red;
+  height: 100%;
+  margin: 0;
 }
