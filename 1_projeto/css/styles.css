@@ -120,29 +120,29 @@ i {
 }
 
 /* FOOTER */
-footer{
-  border-top: 1px solid #CCC;
+footer {
+  border-top: 1px solid #ccc;
   height: 250px;
   padding: 30px;
 }
 
-footer i{
+footer i {
   font-size: 20px;
 }
 
-#social-icons-container{
+#social-icons-container {
   padding: 25px;
 }
 
-#social-icons-container div{
+#social-icons-container div {
   text-align: center;
 }
 
-footer p{
+footer p {
   text-align: center;
   margin: 20px;
 }
 
-a:hover i{
-  color: #C1B696;
+a:hover i {
+  color: #c1b696;
 }
